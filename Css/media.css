@@ -1,0 +1,48 @@
+@media(max-width: 1080px) {
+
+.card {
+    width: calc(50% - 15px);
+}
+footer {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.wripper-footer {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    }
+.footer-col {
+    margin-bottom: 5px;
+}
+}
+
+@media(max-width: 760px) {
+h1 {
+    font-size: 36px;
+}   
+header li a {
+    font-size: 13px;
+}
+.portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+.main {
+    padding-bottom: 30px;
+}
+
+.card {
+    max-width: 530px;
+    width: 100%;
+    }
+    .card-wripper {
+      justify-content: center;
+        
+    }
+.footer-row {
+    padding-right: 0;
+    width: 80%;
+}
+}

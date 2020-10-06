@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+header ul {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header li {
+    display: block;
+    padding: 0px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+header li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header ul:hover li a {
+    filter: blur(3px);
+}
+
+header ul:hover li a:hover {
+    color: #665bfa;
+    filter: blur(0px);
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     height: 100vh;
+     /*background-image: url(../image/main.jpg);*/
+     background-size: cover;
+     background-position: center;
+}
+
+.none {
+    display:  none;
+}
+.contarner {
+ max-width: 1110px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+body,h1,p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+font-weight: bold;
+font-size: 56px;
+line-height: 130%;
+text-align: center;
+color: #fff;
+}
+.subtitle {
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #fff;
+margin-top: 25px;
+}
+
+.header-arrow {
+    position: absolute;
+    bottom: 0;
+}
+/* Секция для портфолио */
+main {
+
+    padding-bottom: 85px;
+}
+
+.portfolio h2 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    background-color: #fff;
+    max-width: 540px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    margin: 0;
+    color: #000000;
+}
+
+.card p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 13px;
+    color: #000000;
+}
+
+.card-wripper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+    
+footer {
+    background-color: #1E4776;
+    padding-top: 53px;
+    padding-bottom: 129px;
+    color: #ffffff;
+ }
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-block {
+    max-width: 350px;
+ }
+
+ footer h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+ }
+ 
+.footer-copy {
+    color: #7E9EC9;
+    margin-bottom: 15px;
+}
+
+.footer-icons {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-icons img {
+    padding-right: 35px;
+}
+
+.footer-btn {
+    max-width: 278px;
+    padding: 15px 30px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    transition: all 0.2s ease-in-out;
+
+}
+.footer-btn:hover{
+    background-color: #ffffff;
+    color:#1E4776;
+
+    /* transform: translateY(-15px); */
+}
+.portfolio a:hover {
+    color: rgb(162, 189, 238);
+    transform: translateY(-15px);
+}
+header nav {
+position: absolute;
+padding-bottom: 90vh;
+}
+
+
+
+
+
+
+
+
+
+.forest-travel{
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+   
+    }
+    .main-img {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .main-img img {
+        max-width: 100%;
+    }
+    .text-main{
+    max-width: 720px;
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    }
+    .text-url{
+    max-width: 720px;
+    margin:auto;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+    }
+    .url{
+        color: #275BEC;
+    }
+    .main-button{
+        margin-top: 80px ;
+        margin:auto;
+        text-align: center;
+    }
+    .button-main{
+    padding: 20px 30px;
+    border: 3px solid  #275BEC;;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #275BEC;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 120px;
+    }
